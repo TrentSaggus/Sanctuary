@@ -31,6 +31,7 @@ echo "Configuring Firefox ..."
 wget https://raw.githubusercontent.com/TrentSaggus/Sanctuary/main/config/policies.json -O /tmp/policies.json
 sudo mkdir -p /usr/lib/firefox/distribution
 sudo mv /tmp/policies.json /usr/lib/firefox/distribution/policies.json
+sudo cp /usr/lib/firefox/distribution/policies.json /etc/firefox/policies/policies.json
 
 # Additional system configurations and cleanup can go here
 
