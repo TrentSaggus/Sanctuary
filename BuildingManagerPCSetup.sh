@@ -7,14 +7,16 @@ sudo apt install nala -y
 # Update the system
 echo "Updating the system ..."
 sudo nala update -y
+sudo nala upgrade -y
 
 # Remove LibreOffice
-echo "Removing LibreOffice ..."
+echo "Removing Unneeded Applications ..."
 sudo nala remove -y libreoffice*
+sudo nala remove -y transmition remmina
 
 # Install ONLYOFFICE, Flatpak, Firefox, Thunderbird, and Bitwarden
 echo "Installing required applications ..."
-sudo nala install -y onlyoffice-desktopeditors flatpak firefox thunderbird
+sudo nala install -y onlyoffice-desktopeditors flatpak firefox thunderbird htop
 
 # Install and Setup flatpak for first use
 echo "Installing and Setting Up Flatpak for Use"
