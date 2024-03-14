@@ -1,8 +1,3 @@
-
-
-
-
-
 #!/bin/bash
 
 # Install new Package Manager
