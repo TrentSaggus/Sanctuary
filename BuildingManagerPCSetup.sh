@@ -6,13 +6,13 @@ sudo apt install nala -y
 
 # Update the system
 echo "Updating the system ..."
-sudo nala update -y
+sudo nala update
 sudo nala upgrade -y
 
 # Remove LibreOffice
 echo "Removing Unneeded Applications ..."
 sudo nala remove -y libreoffice*
-sudo nala remove -y transmition remmina
+sudo nala remove -y transmission remmina
 
 # Install ONLYOFFICE, Flatpak, Firefox, Thunderbird, and Bitwarden
 echo "Installing required applications ..."
