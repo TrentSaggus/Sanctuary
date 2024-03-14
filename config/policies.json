@@ -1,0 +1,23 @@
+{
+    "policies": {
+        "Homepage": {
+            "URL": "https://cloud.thesanctuarygosford.com",
+            "Locked": true
+        },
+        "DisableTelemetry": true,
+        "DisableFirefoxAccounts": true,
+        "DisableFormHistory": true,
+        "OfferToSaveLogins": false,
+        "SearchEngines": {
+            "Default": "DuckDuckGo"
+        },
+        "Bookmarks": {
+            "RemoveAll": true
+        },
+        "Extensions": {
+            "Install": [
+                "bitwarden-password-manager@addons.mozilla.org"
+            ]
+        }
+    }
+}
